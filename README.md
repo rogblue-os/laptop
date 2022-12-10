@@ -11,3 +11,4 @@ Modified Silverblue image for Asus ROG laptops.
 - All flatpaks are installed with --user flag and not as system
 - Includes base Gnome apps installed from Flathub and not Fedoras own flatpak repo
 - asusctl, supergfxctl and asusctl-rog-gui from [Asus-linux.org](www.asus-linux.org) are included and supergfxctl also started on boot
+- Custom kernel for ROG laptops (fixes sleep and brings patches to fix "gaming" features). This is temporary until kernel 6.1 comes to Silverblue
