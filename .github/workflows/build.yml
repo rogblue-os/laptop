@@ -1,4 +1,4 @@
-name: build-rogblue
+name: build-rogblue-laptop
 on:
   push:
   schedule:
