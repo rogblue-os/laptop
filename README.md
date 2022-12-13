@@ -7,7 +7,7 @@ This is still highly experimental feature so keep that in mind :)
 
 - Install Fedora Silverblue 37
 - Rebase to this image:
-    - sudo rpm-ostree rebase --experimental ostree-unverified-registry:ghcr.io/rogblue-os/laptop:latest
+    - sudo rpm-ostree rebase --experimental ostree-unverified-registry:ghcr.io/rogblue-os/rog-laptop:latest
 
 # Included
 - Fedora flatpaks and filtered flathub repo are removed
