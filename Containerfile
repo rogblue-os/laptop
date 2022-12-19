@@ -13,5 +13,4 @@ RUN sudo rpm-ostree override replace --experimental --from repo=copr:copr.fedora
 
 RUN rpm-ostree install gnome-shell-extension-appindicator gnome-shell-extension-dash-to-dock asusctl supergfxctl asusctl-rog-gui && \
     systemctl enable supergfxd && \
-    rpm-ostree cleanup -m  && \
     ostree container commit
